@@ -23,8 +23,11 @@ public class LixoSpawnerController : MonoBehaviour
 
     public TMP_Text victoryText;
 
+    private AudioSource audioSource;
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         StartCoroutine(SpawnRoutine());
         victoryText.gameObject.SetActive(false);
     }
