@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 621593099129894029}
   - component: {fileID: 8029271722507904478}
   - component: {fileID: -2555349088491288723}
+  - component: {fileID: -4410266970623968869}
   m_Layer: 0
   m_Name: Lixo
   m_TagString: Lixo
@@ -153,3 +154,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba02a14f34a5cf94bbf4c278ce838a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyLixo
+--- !u!64 &-4410266970623968869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379868526765559389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
